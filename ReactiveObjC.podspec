@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ReactiveObjC"
-  s.version      = "3.1.0"
-  s.summary      = "The 2.x ReactiveCocoa Objective-C API: Streams of values over time"
+  s.name         = "ReactiveObjC-PulseID"
+  s.version      = "3.1.1"
+  s.summary      = "ReactiveCocoa without UI functionality"
 
   s.description  = <<-DESC.strip_heredoc
                      ReactiveObjC (formally ReactiveCocoa or RAC) is an Objective-C
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target    = "9.0"
 
-  s.source = { git: "https://github.com/ReactiveCocoa/ReactiveObjC.git",
+  s.source = { git: "https://github.com/pulse-id/ReactiveObjC.git",
                tag: s.version }
 
   s.source_files          = "ReactiveObjC/*.{h,m,d}",
