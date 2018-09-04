@@ -11,7 +11,7 @@
 
 #import "NSObject+RACKVOWrapper.h"
 
-#import <ReactiveObjC/EXTKeyPathCoding.h>
+#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
 #import "NSObject+RACDeallocating.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"

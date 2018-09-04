@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ReactiveObjC.xcodeproj">
+      location = "group:/Users/Evan/Desktop/ReactiveObjC/ReactiveObjC_PulseID.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">

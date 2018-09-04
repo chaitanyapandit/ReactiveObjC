@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
 
-#import <ReactiveObjC/ReactiveObjC.h>
+#import <ReactiveObjC_PulseID/ReactiveObjC.h>
 
 @interface RACTestExampleScheduler : RACQueueScheduler
 

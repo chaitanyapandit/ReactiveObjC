@@ -14,9 +14,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F925EAC195C0D6300ED456B"
+               BlueprintIdentifier = "1F1A74281940169200FFFC47"
                BuildableName = "Nimble.framework"
-               BlueprintName = "Nimble-macOS"
+               BlueprintName = "Nimble-iOS"
                ReferencedContainer = "container:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAEB6B8D1943873100289F44"
+               BlueprintIdentifier = "5A5D117B19473F2100F6D13D"
                BuildableName = "Quick.framework"
-               BlueprintName = "Quick-macOS"
+               BlueprintName = "Quick-iOS"
                ReferencedContainer = "container:Carthage/Checkouts/Quick/Quick.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,10 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D04725E919E49ED7006002AA"
-               BuildableName = "ReactiveObjC.framework"
-               BlueprintName = "ReactiveObjC-macOS"
-               ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+               BlueprintIdentifier = "D047260B19E49F82006002AA"
+               BuildableName = "ReactiveObjC_PulseID.framework"
+               BlueprintName = "ReactiveObjC_PulseID-iOS"
+               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -56,10 +56,10 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D04725F419E49ED7006002AA"
-               BuildableName = "ReactiveObjCTests.xctest"
-               BlueprintName = "ReactiveObjC-macOSTests"
-               ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+               BlueprintIdentifier = "D047261519E49F82006002AA"
+               BuildableName = "ReactiveObjC_PulseIDTests.xctest"
+               BlueprintName = "ReactiveObjC_PulseID-iOSTests"
+               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -68,27 +68,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D04725F419E49ED7006002AA"
-               BuildableName = "ReactiveObjCTests.xctest"
-               BlueprintName = "ReactiveObjC-macOSTests"
-               ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+               BlueprintIdentifier = "D047261519E49F82006002AA"
+               BuildableName = "ReactiveObjC_PulseIDTests.xctest"
+               BlueprintName = "ReactiveObjC_PulseID-iOSTests"
+               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D04725E919E49ED7006002AA"
-            BuildableName = "ReactiveObjC.framework"
-            BlueprintName = "ReactiveObjC-macOS"
-            ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BuildableName = "ReactiveObjC_PulseID.framework"
+            BlueprintName = "ReactiveObjC_PulseID-iOS"
+            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -107,10 +107,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D04725E919E49ED7006002AA"
-            BuildableName = "ReactiveObjC.framework"
-            BlueprintName = "ReactiveObjC-macOS"
-            ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BuildableName = "ReactiveObjC_PulseID.framework"
+            BlueprintName = "ReactiveObjC_PulseID-iOS"
+            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -125,10 +125,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D04725E919E49ED7006002AA"
-            BuildableName = "ReactiveObjC.framework"
-            BlueprintName = "ReactiveObjC-macOS"
-            ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BuildableName = "ReactiveObjC_PulseID.framework"
+            BlueprintName = "ReactiveObjC_PulseID-iOS"
+            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
