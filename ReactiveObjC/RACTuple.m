@@ -7,7 +7,7 @@
 //
 
 #import "RACTuple.h"
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 #import "RACTupleSequence.h"
 
 @implementation RACTupleNil

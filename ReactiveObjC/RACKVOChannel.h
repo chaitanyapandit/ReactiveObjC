@@ -7,7 +7,7 @@
 //
 
 #import "RACChannel.h"
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 #import "metamacros.h"
 
 /// Creates a RACKVOChannel to the given key path. When the targeted object

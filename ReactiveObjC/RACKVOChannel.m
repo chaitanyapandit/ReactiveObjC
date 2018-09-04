@@ -7,7 +7,7 @@
 //
 
 #import "RACKVOChannel.h"
-#import <ReactiveObjC_PulseID/EXTScope.h>
+#import <PulseReactiveC/EXTScope.h>
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACKVOWrapper.h"
 #import "NSString+RACKeyPathUtilities.h"

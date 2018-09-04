@@ -44,8 +44,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D047260B19E49F82006002AA"
                BuildableName = "ReactiveObjC_PulseID.framework"
-               BlueprintName = "ReactiveObjC_PulseID-iOS"
-               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+               BlueprintName = "PulseReactiveC-iOS"
+               ReferencedContainer = "container:PulseReactiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -58,8 +58,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D047261519E49F82006002AA"
                BuildableName = "ReactiveObjC_PulseIDTests.xctest"
-               BlueprintName = "ReactiveObjC_PulseID-iOSTests"
-               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+               BlueprintName = "PulseReactiveC-iOSTests"
+               ReferencedContainer = "container:PulseReactiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -77,8 +77,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D047261519E49F82006002AA"
                BuildableName = "ReactiveObjC_PulseIDTests.xctest"
-               BlueprintName = "ReactiveObjC_PulseID-iOSTests"
-               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+               BlueprintName = "PulseReactiveC-iOSTests"
+               ReferencedContainer = "container:PulseReactiveC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -87,8 +87,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D047260B19E49F82006002AA"
             BuildableName = "ReactiveObjC_PulseID.framework"
-            BlueprintName = "ReactiveObjC_PulseID-iOS"
-            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+            BlueprintName = "PulseReactiveC-iOS"
+            ReferencedContainer = "container:PulseReactiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -109,8 +109,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D047260B19E49F82006002AA"
             BuildableName = "ReactiveObjC_PulseID.framework"
-            BlueprintName = "ReactiveObjC_PulseID-iOS"
-            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+            BlueprintName = "PulseReactiveC-iOS"
+            ReferencedContainer = "container:PulseReactiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -127,8 +127,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D047260B19E49F82006002AA"
             BuildableName = "ReactiveObjC_PulseID.framework"
-            BlueprintName = "ReactiveObjC_PulseID-iOS"
-            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+            BlueprintName = "PulseReactiveC-iOS"
+            ReferencedContainer = "container:PulseReactiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

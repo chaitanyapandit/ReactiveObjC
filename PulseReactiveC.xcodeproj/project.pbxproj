@@ -131,9 +131,9 @@
 		7A7065821A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
 		7A7065841A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
 		7A7065851A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
-		7DFBED081CDB8C9500EE435B /* ReactiveObjC_PulseID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC_PulseID.framework */; };
+		7DFBED081CDB8C9500EE435B /* PulseReactiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* PulseReactiveC.framework */; };
 		7DFBED141CDB8CE600EE435B /* test-data.json in Resources */ = {isa = PBXBuildFile; fileRef = D03766B119EDA60000A782A9 /* test-data.json */; };
-		7DFBED1E1CDB8D7000EE435B /* ReactiveObjC_PulseID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC_PulseID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DFBED1E1CDB8D7000EE435B /* PulseReactiveC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* PulseReactiveC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED201CDB8D7D00EE435B /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED321CDB8DE300EE435B /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
@@ -305,7 +305,7 @@
 		CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D01B7B6419EDD94B00D26E01 /* ReactiveObjC_PulseID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjC_PulseID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D01B7B6419EDD94B00D26E01 /* PulseReactiveC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* PulseReactiveC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D03764E819EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03764E919EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03764EA19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */; };
@@ -628,8 +628,8 @@
 		D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D04725F019E49ED7006002AA /* ReactiveObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04725F619E49ED7006002AA /* ReactiveObjC_PulseID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04725EA19E49ED7006002AA /* ReactiveObjC_PulseID.framework */; };
-		D047261719E49F82006002AA /* ReactiveObjC_PulseID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjC_PulseID.framework */; };
+		D04725F619E49ED7006002AA /* PulseReactiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04725EA19E49ED7006002AA /* PulseReactiveC.framework */; };
+		D047261719E49F82006002AA /* PulseReactiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* PulseReactiveC.framework */; };
 		D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
 		D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
 		D0C3131E19EF2D9700984962 /* RACTestExampleScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131819EF2D9700984962 /* RACTestExampleScheduler.m */; };
@@ -674,7 +674,7 @@
 			files = (
 				7DFBED201CDB8D7D00EE435B /* Nimble.framework in Copy Frameworks */,
 				7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */,
-				7DFBED1E1CDB8D7000EE435B /* ReactiveObjC_PulseID.framework in Copy Frameworks */,
+				7DFBED1E1CDB8D7000EE435B /* PulseReactiveC.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,7 +687,7 @@
 			files = (
 				D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */,
 				D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */,
-				D01B7B6419EDD94B00D26E01 /* ReactiveObjC_PulseID.framework in Copy Frameworks */,
+				D01B7B6419EDD94B00D26E01 /* PulseReactiveC.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,7 +696,7 @@
 
 /* Begin PBXFileReference section */
 		3A17B4A51E8EFDCD00C8999E /* RACAnnotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAnnotations.h; sourceTree = "<group>"; };
-		57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC_PulseID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC_PulseID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A4D2411BA13D7A00F7D4B1 /* PulseReactiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseReactiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
 		57A4D2451BA13F9700F7D4B1 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
 		57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -704,12 +704,12 @@
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
 		7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxySpec.m; sourceTree = "<group>"; };
-		7DFBED031CDB8C9500EE435B /* ReactiveObjC_PulseIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjC_PulseIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBED031CDB8C9500EE435B /* PulseReactiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseReactiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97451331B3A935E00F48E55 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
 		A97451341B3A935E00F48E55 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		A97451361B3A935E00F48E55 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		A9B315541B3940610001CB9C /* ReactiveObjC_PulseID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC_PulseID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B315541B3940610001CB9C /* PulseReactiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseReactiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSControl+RACCommandSupport.h"; sourceTree = "<group>"; };
@@ -912,13 +912,13 @@
 		D03766B019EDA60000A782A9 /* RACTupleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTupleSpec.m; sourceTree = "<group>"; };
 		D03766B119EDA60000A782A9 /* test-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "test-data.json"; sourceTree = "<group>"; };
 		D037672B19EDA75D00A782A9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04725EA19E49ED7006002AA /* ReactiveObjC_PulseID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC_PulseID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04725EA19E49ED7006002AA /* PulseReactiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseReactiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04725EE19E49ED7006002AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04725EF19E49ED7006002AA /* ReactiveObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjC.h; sourceTree = "<group>"; };
-		D04725F519E49ED7006002AA /* ReactiveObjC_PulseIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjC_PulseIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04725F519E49ED7006002AA /* PulseReactiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseReactiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04725FB19E49ED7006002AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D047260C19E49F82006002AA /* ReactiveObjC_PulseID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC_PulseID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D047261619E49F82006002AA /* ReactiveObjC_PulseIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjC_PulseIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D047260C19E49F82006002AA /* PulseReactiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseReactiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D047261619E49F82006002AA /* PulseReactiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseReactiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D047262719E49FE8006002AA /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		D047262919E49FE8006002AA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		D047262A19E49FE8006002AA /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
@@ -961,7 +961,7 @@
 			files = (
 				CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */,
 				CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */,
-				7DFBED081CDB8C9500EE435B /* ReactiveObjC_PulseID.framework in Frameworks */,
+				7DFBED081CDB8C9500EE435B /* PulseReactiveC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -985,7 +985,7 @@
 			files = (
 				D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */,
 				D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */,
-				D04725F619E49ED7006002AA /* ReactiveObjC_PulseID.framework in Frameworks */,
+				D04725F619E49ED7006002AA /* PulseReactiveC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,7 +1002,7 @@
 			files = (
 				D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */,
 				D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */,
-				D047261719E49F82006002AA /* ReactiveObjC_PulseID.framework in Frameworks */,
+				D047261719E49F82006002AA /* PulseReactiveC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,13 +1057,13 @@
 		D04725EB19E49ED7006002AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D04725EA19E49ED7006002AA /* ReactiveObjC_PulseID.framework */,
-				D04725F519E49ED7006002AA /* ReactiveObjC_PulseIDTests.xctest */,
-				D047260C19E49F82006002AA /* ReactiveObjC_PulseID.framework */,
-				D047261619E49F82006002AA /* ReactiveObjC_PulseIDTests.xctest */,
-				A9B315541B3940610001CB9C /* ReactiveObjC_PulseID.framework */,
-				57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC_PulseID.framework */,
-				7DFBED031CDB8C9500EE435B /* ReactiveObjC_PulseIDTests.xctest */,
+				D04725EA19E49ED7006002AA /* PulseReactiveC.framework */,
+				D04725F519E49ED7006002AA /* PulseReactiveCTests.xctest */,
+				D047260C19E49F82006002AA /* PulseReactiveC.framework */,
+				D047261619E49F82006002AA /* PulseReactiveCTests.xctest */,
+				A9B315541B3940610001CB9C /* PulseReactiveC.framework */,
+				57A4D2411BA13D7A00F7D4B1 /* PulseReactiveC.framework */,
+				7DFBED031CDB8C9500EE435B /* PulseReactiveCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1619,9 +1619,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		57A4D1AF1BA13D7A00F7D4B1 /* ReactiveObjC_PulseID-tvOS */ = {
+		57A4D1AF1BA13D7A00F7D4B1 /* PulseReactiveC-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57A4D23C1BA13D7A00F7D4B1 /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-tvOS" */;
+			buildConfigurationList = 57A4D23C1BA13D7A00F7D4B1 /* Build configuration list for PBXNativeTarget "PulseReactiveC-tvOS" */;
 			buildPhases = (
 				57A4D1B01BA13D7A00F7D4B1 /* Sources */,
 				57A4D2071BA13D7A00F7D4B1 /* Frameworks */,
@@ -1632,14 +1632,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveObjC_PulseID-tvOS";
+			name = "PulseReactiveC-tvOS";
 			productName = ReactiveCocoa;
-			productReference = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC_PulseID.framework */;
+			productReference = 57A4D2411BA13D7A00F7D4B1 /* PulseReactiveC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7DFBED021CDB8C9500EE435B /* ReactiveObjC_PulseID-tvOSTests */ = {
+		7DFBED021CDB8C9500EE435B /* PulseReactiveC-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-tvOSTests" */;
+			buildConfigurationList = 7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "PulseReactiveC-tvOSTests" */;
 			buildPhases = (
 				7DFBECFF1CDB8C9500EE435B /* Sources */,
 				7DFBED001CDB8C9500EE435B /* Frameworks */,
@@ -1651,14 +1651,14 @@
 			dependencies = (
 				7DFBED0A1CDB8C9500EE435B /* PBXTargetDependency */,
 			);
-			name = "ReactiveObjC_PulseID-tvOSTests";
+			name = "PulseReactiveC-tvOSTests";
 			productName = "ReactiveCocoa-tvOSTests";
-			productReference = 7DFBED031CDB8C9500EE435B /* ReactiveObjC_PulseIDTests.xctest */;
+			productReference = 7DFBED031CDB8C9500EE435B /* PulseReactiveCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A9B315531B3940610001CB9C /* ReactiveObjC_PulseID-watchOS */ = {
+		A9B315531B3940610001CB9C /* PulseReactiveC-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-watchOS" */;
+			buildConfigurationList = A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "PulseReactiveC-watchOS" */;
 			buildPhases = (
 				A9B3154F1B3940610001CB9C /* Sources */,
 				A9B315501B3940610001CB9C /* Frameworks */,
@@ -1669,14 +1669,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveObjC_PulseID-watchOS";
+			name = "PulseReactiveC-watchOS";
 			productName = ReactiveCocoa;
-			productReference = A9B315541B3940610001CB9C /* ReactiveObjC_PulseID.framework */;
+			productReference = A9B315541B3940610001CB9C /* PulseReactiveC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D04725E919E49ED7006002AA /* ReactiveObjC_PulseID-macOS */ = {
+		D04725E919E49ED7006002AA /* PulseReactiveC-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-macOS" */;
+			buildConfigurationList = D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-macOS" */;
 			buildPhases = (
 				D04725E519E49ED7006002AA /* Sources */,
 				D04725E619E49ED7006002AA /* Frameworks */,
@@ -1687,14 +1687,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveObjC_PulseID-macOS";
+			name = "PulseReactiveC-macOS";
 			productName = ReactiveCocoa;
-			productReference = D04725EA19E49ED7006002AA /* ReactiveObjC_PulseID.framework */;
+			productReference = D04725EA19E49ED7006002AA /* PulseReactiveC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D04725F419E49ED7006002AA /* ReactiveObjC_PulseID-macOSTests */ = {
+		D04725F419E49ED7006002AA /* PulseReactiveC-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-macOSTests" */;
+			buildConfigurationList = D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-macOSTests" */;
 			buildPhases = (
 				D04725F119E49ED7006002AA /* Sources */,
 				D04725F219E49ED7006002AA /* Frameworks */,
@@ -1705,14 +1705,14 @@
 			dependencies = (
 				D04725F819E49ED7006002AA /* PBXTargetDependency */,
 			);
-			name = "ReactiveObjC_PulseID-macOSTests";
+			name = "PulseReactiveC-macOSTests";
 			productName = ReactiveCocoaTests;
-			productReference = D04725F519E49ED7006002AA /* ReactiveObjC_PulseIDTests.xctest */;
+			productReference = D04725F519E49ED7006002AA /* PulseReactiveCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D047260B19E49F82006002AA /* ReactiveObjC_PulseID-iOS */ = {
+		D047260B19E49F82006002AA /* PulseReactiveC-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-iOS" */;
+			buildConfigurationList = D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-iOS" */;
 			buildPhases = (
 				D047260719E49F82006002AA /* Sources */,
 				D047260819E49F82006002AA /* Frameworks */,
@@ -1723,14 +1723,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveObjC_PulseID-iOS";
+			name = "PulseReactiveC-iOS";
 			productName = ReactiveCocoa;
-			productReference = D047260C19E49F82006002AA /* ReactiveObjC_PulseID.framework */;
+			productReference = D047260C19E49F82006002AA /* PulseReactiveC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D047261519E49F82006002AA /* ReactiveObjC_PulseID-iOSTests */ = {
+		D047261519E49F82006002AA /* PulseReactiveC-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-iOSTests" */;
+			buildConfigurationList = D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-iOSTests" */;
 			buildPhases = (
 				D047261219E49F82006002AA /* Sources */,
 				D047261319E49F82006002AA /* Frameworks */,
@@ -1742,9 +1742,9 @@
 			dependencies = (
 				D047261919E49F82006002AA /* PBXTargetDependency */,
 			);
-			name = "ReactiveObjC_PulseID-iOSTests";
+			name = "PulseReactiveC-iOSTests";
 			productName = ReactiveCocoaTests;
-			productReference = D047261619E49F82006002AA /* ReactiveObjC_PulseIDTests.xctest */;
+			productReference = D047261619E49F82006002AA /* PulseReactiveCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1786,7 +1786,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D04725E419E49ED7006002AA /* Build configuration list for PBXProject "ReactiveObjC_PulseID" */;
+			buildConfigurationList = D04725E419E49ED7006002AA /* Build configuration list for PBXProject "PulseReactiveC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1798,13 +1798,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D04725E919E49ED7006002AA /* ReactiveObjC_PulseID-macOS */,
-				D04725F419E49ED7006002AA /* ReactiveObjC_PulseID-macOSTests */,
-				D047260B19E49F82006002AA /* ReactiveObjC_PulseID-iOS */,
-				D047261519E49F82006002AA /* ReactiveObjC_PulseID-iOSTests */,
-				A9B315531B3940610001CB9C /* ReactiveObjC_PulseID-watchOS */,
-				57A4D1AF1BA13D7A00F7D4B1 /* ReactiveObjC_PulseID-tvOS */,
-				7DFBED021CDB8C9500EE435B /* ReactiveObjC_PulseID-tvOSTests */,
+				D04725E919E49ED7006002AA /* PulseReactiveC-macOS */,
+				D04725F419E49ED7006002AA /* PulseReactiveC-macOSTests */,
+				D047260B19E49F82006002AA /* PulseReactiveC-iOS */,
+				D047261519E49F82006002AA /* PulseReactiveC-iOSTests */,
+				A9B315531B3940610001CB9C /* PulseReactiveC-watchOS */,
+				57A4D1AF1BA13D7A00F7D4B1 /* PulseReactiveC-tvOS */,
+				7DFBED021CDB8C9500EE435B /* PulseReactiveC-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2327,17 +2327,17 @@
 /* Begin PBXTargetDependency section */
 		7DFBED0A1CDB8C9500EE435B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57A4D1AF1BA13D7A00F7D4B1 /* ReactiveObjC_PulseID-tvOS */;
+			target = 57A4D1AF1BA13D7A00F7D4B1 /* PulseReactiveC-tvOS */;
 			targetProxy = 7DFBED091CDB8C9500EE435B /* PBXContainerItemProxy */;
 		};
 		D04725F819E49ED7006002AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D04725E919E49ED7006002AA /* ReactiveObjC_PulseID-macOS */;
+			target = D04725E919E49ED7006002AA /* PulseReactiveC-macOS */;
 			targetProxy = D04725F719E49ED7006002AA /* PBXContainerItemProxy */;
 		};
 		D047261919E49F82006002AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D047260B19E49F82006002AA /* ReactiveObjC_PulseID-iOS */;
+			target = D047260B19E49F82006002AA /* PulseReactiveC-iOS */;
 			targetProxy = D047261819E49F82006002AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2355,7 +2355,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Debug;
 		};
@@ -2371,7 +2371,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Test;
 		};
@@ -2387,7 +2387,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Release;
 		};
@@ -2403,7 +2403,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Profile;
 		};
@@ -2419,7 +2419,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Debug;
 		};
@@ -2435,7 +2435,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Test;
 		};
@@ -2451,7 +2451,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Release;
 		};
@@ -2467,7 +2467,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Profile;
 		};
@@ -2483,7 +2483,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Debug;
 		};
@@ -2499,7 +2499,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Test;
 		};
@@ -2515,7 +2515,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Release;
 		};
@@ -2531,7 +2531,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 			};
 			name = Profile;
 		};
@@ -2590,7 +2590,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Debug;
@@ -2604,7 +2604,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Release;
@@ -2620,7 +2620,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Debug;
 		};
@@ -2635,7 +2635,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Release;
 		};
@@ -2648,7 +2648,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Debug;
@@ -2662,7 +2662,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Release;
@@ -2674,7 +2674,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Debug;
 		};
@@ -2685,7 +2685,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Release;
 		};
@@ -2720,7 +2720,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Profile;
@@ -2736,7 +2736,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Profile;
 		};
@@ -2749,7 +2749,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Profile;
@@ -2761,7 +2761,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Profile;
 		};
@@ -2796,7 +2796,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Test;
@@ -2812,7 +2812,7 @@
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Test;
 		};
@@ -2825,7 +2825,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseID;
+				PRODUCT_NAME = PulseReactiveC;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Test;
@@ -2837,14 +2837,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ReactiveObjC_PulseIDTests;
+				PRODUCT_NAME = PulseReactiveCTests;
 			};
 			name = Test;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57A4D23C1BA13D7A00F7D4B1 /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-tvOS" */ = {
+		57A4D23C1BA13D7A00F7D4B1 /* Build configuration list for PBXNativeTarget "PulseReactiveC-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57A4D23D1BA13D7A00F7D4B1 /* Debug */,
@@ -2855,7 +2855,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-tvOSTests" */ = {
+		7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "PulseReactiveC-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DFBED0B1CDB8C9500EE435B /* Debug */,
@@ -2866,7 +2866,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-watchOS" */ = {
+		A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "PulseReactiveC-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9B315591B3940610001CB9C /* Debug */,
@@ -2877,7 +2877,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04725E419E49ED7006002AA /* Build configuration list for PBXProject "ReactiveObjC_PulseID" */ = {
+		D04725E419E49ED7006002AA /* Build configuration list for PBXProject "PulseReactiveC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04725FE19E49ED7006002AA /* Debug */,
@@ -2888,7 +2888,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-macOS" */ = {
+		D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047260119E49ED7006002AA /* Debug */,
@@ -2899,7 +2899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-macOSTests" */ = {
+		D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047260419E49ED7006002AA /* Debug */,
@@ -2910,7 +2910,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-iOS" */ = {
+		D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047262019E49F82006002AA /* Debug */,
@@ -2921,7 +2921,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC_PulseID-iOSTests" */ = {
+		D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "PulseReactiveC-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047262319E49F82006002AA /* Debug */,

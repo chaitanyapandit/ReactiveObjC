@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 
 @class RACSignal<__covariant ValueType>;
 

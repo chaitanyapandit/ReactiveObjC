@@ -7,7 +7,7 @@
 //
 
 #import "NSUserDefaults+RACSupport.h"
-#import <ReactiveObjC_PulseID/EXTScope.h>
+#import <PulseReactiveC/EXTScope.h>
 #import "NSNotificationCenter+RACSupport.h"
 #import "NSObject+RACDeallocating.h"
 #import "RACChannel.h"

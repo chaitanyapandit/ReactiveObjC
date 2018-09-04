@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9B315531B3940610001CB9C"
                BuildableName = "ReactiveObjC_PulseID.framework"
-               BlueprintName = "ReactiveObjC_PulseID-watchOS"
-               ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+               BlueprintName = "PulseReactiveC-watchOS"
+               ReferencedContainer = "container:PulseReactiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -56,8 +56,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A9B315531B3940610001CB9C"
             BuildableName = "ReactiveObjC_PulseID.framework"
-            BlueprintName = "ReactiveObjC_PulseID-watchOS"
-            ReferencedContainer = "container:ReactiveObjC_PulseID.xcodeproj">
+            BlueprintName = "PulseReactiveC-watchOS"
+            ReferencedContainer = "container:PulseReactiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

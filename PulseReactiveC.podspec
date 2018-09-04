@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ReactiveObjC_PulseID"
+  s.name         = "PulseReactiveC"
   s.version      = "3.1.1"
   s.summary      = "ReactiveCocoa without UI functionality"
 
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
                                           -e 's@"(?:(?!RAC)(EXT.*|metamacros))\.h"@"RAC\1.h"@' '{}' \;
                         find . -regex '.*\.[hm]' \
                                -exec perl -pi \
-                                          -e 's@<ReactiveObjC_PulseID/(?:(?!RAC)(EXT.*))\.h>@<ReactiveObjC_PulseID/RAC\1.h>@' '{}' \;
+                                          -e 's@<PulseReactiveC/(?:(?!RAC)(EXT.*))\.h>@<PulseReactiveC/RAC\1.h>@' '{}' \;
                       CMD
 
 end

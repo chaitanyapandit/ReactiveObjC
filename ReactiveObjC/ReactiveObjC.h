@@ -14,63 +14,63 @@ FOUNDATION_EXPORT double ReactiveObjCVersionNumber;
 //! Project version string for ReactiveObjC.
 FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
-#import <ReactiveObjC_PulseID/EXTScope.h>
-#import <ReactiveObjC_PulseID/NSArray+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSData+RACSupport.h>
-#import <ReactiveObjC_PulseID/NSDictionary+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSEnumerator+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSFileHandle+RACSupport.h>
-#import <ReactiveObjC_PulseID/NSNotificationCenter+RACSupport.h>
-#import <ReactiveObjC_PulseID/NSObject+RACDeallocating.h>
-#import <ReactiveObjC_PulseID/NSObject+RACLifting.h>
-#import <ReactiveObjC_PulseID/NSObject+RACPropertySubscribing.h>
-#import <ReactiveObjC_PulseID/NSObject+RACSelectorSignal.h>
-#import <ReactiveObjC_PulseID/NSOrderedSet+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSSet+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSString+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSString+RACSupport.h>
-#import <ReactiveObjC_PulseID/NSIndexSet+RACSequenceAdditions.h>
-#import <ReactiveObjC_PulseID/NSUserDefaults+RACSupport.h>
-#import <ReactiveObjC_PulseID/RACBehaviorSubject.h>
-#import <ReactiveObjC_PulseID/RACChannel.h>
-#import <ReactiveObjC_PulseID/RACCommand.h>
-#import <ReactiveObjC_PulseID/RACCompoundDisposable.h>
-#import <ReactiveObjC_PulseID/RACDelegateProxy.h>
-#import <ReactiveObjC_PulseID/RACDisposable.h>
-#import <ReactiveObjC_PulseID/RACEvent.h>
-#import <ReactiveObjC_PulseID/RACGroupedSignal.h>
-#import <ReactiveObjC_PulseID/RACKVOChannel.h>
-#import <ReactiveObjC_PulseID/RACMulticastConnection.h>
-#import <ReactiveObjC_PulseID/RACQueueScheduler.h>
-#import <ReactiveObjC_PulseID/RACQueueScheduler+Subclass.h>
-#import <ReactiveObjC_PulseID/RACReplaySubject.h>
-#import <ReactiveObjC_PulseID/RACScheduler.h>
-#import <ReactiveObjC_PulseID/RACScheduler+Subclass.h>
-#import <ReactiveObjC_PulseID/RACScopedDisposable.h>
-#import <ReactiveObjC_PulseID/RACSequence.h>
-#import <ReactiveObjC_PulseID/RACSerialDisposable.h>
-#import <ReactiveObjC_PulseID/RACSignal+Operations.h>
-#import <ReactiveObjC_PulseID/RACSignal.h>
-#import <ReactiveObjC_PulseID/RACStream.h>
-#import <ReactiveObjC_PulseID/RACSubject.h>
-#import <ReactiveObjC_PulseID/RACSubscriber.h>
-#import <ReactiveObjC_PulseID/RACSubscriptingAssignmentTrampoline.h>
-#import <ReactiveObjC_PulseID/RACTargetQueueScheduler.h>
-#import <ReactiveObjC_PulseID/RACTestScheduler.h>
-#import <ReactiveObjC_PulseID/RACTuple.h>
-#import <ReactiveObjC_PulseID/RACUnit.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTScope.h>
+#import <PulseReactiveC/NSArray+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSData+RACSupport.h>
+#import <PulseReactiveC/NSDictionary+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSEnumerator+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSFileHandle+RACSupport.h>
+#import <PulseReactiveC/NSNotificationCenter+RACSupport.h>
+#import <PulseReactiveC/NSObject+RACDeallocating.h>
+#import <PulseReactiveC/NSObject+RACLifting.h>
+#import <PulseReactiveC/NSObject+RACPropertySubscribing.h>
+#import <PulseReactiveC/NSObject+RACSelectorSignal.h>
+#import <PulseReactiveC/NSOrderedSet+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSSet+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSString+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSString+RACSupport.h>
+#import <PulseReactiveC/NSIndexSet+RACSequenceAdditions.h>
+#import <PulseReactiveC/NSUserDefaults+RACSupport.h>
+#import <PulseReactiveC/RACBehaviorSubject.h>
+#import <PulseReactiveC/RACChannel.h>
+#import <PulseReactiveC/RACCommand.h>
+#import <PulseReactiveC/RACCompoundDisposable.h>
+#import <PulseReactiveC/RACDelegateProxy.h>
+#import <PulseReactiveC/RACDisposable.h>
+#import <PulseReactiveC/RACEvent.h>
+#import <PulseReactiveC/RACGroupedSignal.h>
+#import <PulseReactiveC/RACKVOChannel.h>
+#import <PulseReactiveC/RACMulticastConnection.h>
+#import <PulseReactiveC/RACQueueScheduler.h>
+#import <PulseReactiveC/RACQueueScheduler+Subclass.h>
+#import <PulseReactiveC/RACReplaySubject.h>
+#import <PulseReactiveC/RACScheduler.h>
+#import <PulseReactiveC/RACScheduler+Subclass.h>
+#import <PulseReactiveC/RACScopedDisposable.h>
+#import <PulseReactiveC/RACSequence.h>
+#import <PulseReactiveC/RACSerialDisposable.h>
+#import <PulseReactiveC/RACSignal+Operations.h>
+#import <PulseReactiveC/RACSignal.h>
+#import <PulseReactiveC/RACStream.h>
+#import <PulseReactiveC/RACSubject.h>
+#import <PulseReactiveC/RACSubscriber.h>
+#import <PulseReactiveC/RACSubscriptingAssignmentTrampoline.h>
+#import <PulseReactiveC/RACTargetQueueScheduler.h>
+#import <PulseReactiveC/RACTestScheduler.h>
+#import <PulseReactiveC/RACTuple.h>
+#import <PulseReactiveC/RACUnit.h>
 
 #if TARGET_OS_WATCH
 #elif TARGET_OS_IOS || TARGET_OS_TV
 
 	#if TARGET_OS_IOS
-		#import <ReactiveObjC_PulseID/NSURLConnection+RACSupport.h>
+		#import <PulseReactiveC/NSURLConnection+RACSupport.h>
 	#endif
 #elif TARGET_OS_MAC
-	#import <ReactiveObjC_PulseID/NSControl+RACCommandSupport.h>
-	#import <ReactiveObjC_PulseID/NSControl+RACTextSignalSupport.h>
-	#import <ReactiveObjC_PulseID/NSObject+RACAppKitBindings.h>
-	#import <ReactiveObjC_PulseID/NSText+RACSignalSupport.h>
-	#import <ReactiveObjC_PulseID/NSURLConnection+RACSupport.h>
+	#import <PulseReactiveC/NSControl+RACCommandSupport.h>
+	#import <PulseReactiveC/NSControl+RACTextSignalSupport.h>
+	#import <PulseReactiveC/NSObject+RACAppKitBindings.h>
+	#import <PulseReactiveC/NSText+RACSignalSupport.h>
+	#import <PulseReactiveC/NSURLConnection+RACSupport.h>
 #endif

@@ -14,7 +14,7 @@
 #import "RACStreamExamples.h"
 #import "RACTestObject.h"
 
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACPropertySubscribing.h"
 #import "RACBehaviorSubject.h"

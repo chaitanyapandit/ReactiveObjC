@@ -7,7 +7,7 @@
 //
 
 #import "RACUnarySequence.h"
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 #import "NSObject+RACDescription.h"
 
 @interface RACUnarySequence ()

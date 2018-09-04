@@ -7,7 +7,7 @@
 //
 
 #import "RACSubject.h"
-#import <ReactiveObjC_PulseID/EXTScope.h>
+#import <PulseReactiveC/EXTScope.h>
 #import "RACCompoundDisposable.h"
 #import "RACPassthroughSubscriber.h"
 

@@ -7,7 +7,7 @@
 //  Released under the MIT license.
 //
 
-#import <ReactiveObjC_PulseID/EXTRuntimeExtensions.h>
+#import <PulseReactiveC/EXTRuntimeExtensions.h>
 
 #import <ctype.h>
 #import <Foundation/Foundation.h>

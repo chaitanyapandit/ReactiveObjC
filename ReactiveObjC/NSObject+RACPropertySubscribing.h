@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveObjC_PulseID/EXTKeyPathCoding.h>
+#import <PulseReactiveC/EXTKeyPathCoding.h>
 #import "metamacros.h"
 
 /// Creates a signal which observes `KEYPATH` on `TARGET` for changes.

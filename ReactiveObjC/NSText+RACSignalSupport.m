@@ -7,7 +7,7 @@
 //
 
 #import "NSText+RACSignalSupport.h"
-#import <ReactiveObjC_PulseID/EXTScope.h>
+#import <PulseReactiveC/EXTScope.h>
 #import "NSObject+RACDescription.h"
 #import "RACDisposable.h"
 #import "RACSignal.h"

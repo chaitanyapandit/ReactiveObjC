@@ -7,7 +7,7 @@
 //
 
 #import "NSNotificationCenter+RACSupport.h"
-#import <ReactiveObjC_PulseID/EXTScope.h>
+#import <PulseReactiveC/EXTScope.h>
 #import "RACSignal.h"
 #import "RACSubscriber.h"
 #import "RACDisposable.h"
