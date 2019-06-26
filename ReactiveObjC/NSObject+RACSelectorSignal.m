@@ -7,7 +7,7 @@
 //
 
 #import "NSObject+RACSelectorSignal.h"
-#import <PulseReactiveC/EXTRuntimeExtensions.h>
+#import <PulseReactiveC/RACEXTRuntimeExtensions.h>
 #import "NSInvocation+RACTypeParsing.h"
 #import "NSObject+RACDeallocating.h"
 #import "RACCompoundDisposable.h"

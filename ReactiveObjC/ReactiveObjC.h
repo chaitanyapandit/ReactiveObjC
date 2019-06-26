@@ -14,8 +14,8 @@ FOUNDATION_EXPORT double ReactiveObjCVersionNumber;
 //! Project version string for ReactiveObjC.
 FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 
-#import <PulseReactiveC/EXTKeyPathCoding.h>
-#import <PulseReactiveC/EXTScope.h>
+#import <PulseReactiveC/RACEXTKeyPathCoding.h>
+#import <PulseReactiveC/RACEXTScope.h>
 #import <PulseReactiveC/NSArray+RACSequenceAdditions.h>
 #import <PulseReactiveC/NSData+RACSupport.h>
 #import <PulseReactiveC/NSDictionary+RACSequenceAdditions.h>

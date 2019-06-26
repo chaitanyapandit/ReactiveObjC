@@ -52,7 +52,12 @@
 }
 
 + (instancetype)disposableWithBlock:(void (^)(void))block {
-	return [[self alloc] initWithBlock:block];
+    if (@available(iOS 10.0, *)) {
+        return [[self alloc] initWithBlock:block];
+    } else {
+        // Fallback on earlier versions
+        return [[self alloc] init];
+    }
 }
 
 - (void)dealloc {

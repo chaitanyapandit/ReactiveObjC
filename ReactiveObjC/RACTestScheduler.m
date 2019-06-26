@@ -7,7 +7,7 @@
 //
 
 #import "RACTestScheduler.h"
-#import <PulseReactiveC/EXTScope.h>
+#import <PulseReactiveC/RACEXTScope.h>
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"
 #import "RACScheduler+Private.h"

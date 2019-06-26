@@ -8,7 +8,7 @@
 
 #import "RACSubscriber.h"
 #import "RACSubscriber+Private.h"
-#import <PulseReactiveC/EXTScope.h>
+#import <PulseReactiveC/RACEXTScope.h>
 #import "RACCompoundDisposable.h"
 
 @interface RACSubscriber ()

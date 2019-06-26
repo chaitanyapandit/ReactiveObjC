@@ -1,0 +1,6 @@
+framework module PulseReactiveC {
+  umbrella header "PulseReactiveC-umbrella.h"
+
+  export *
+  module * { export * }
+}

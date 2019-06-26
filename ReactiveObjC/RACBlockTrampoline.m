@@ -28,8 +28,13 @@
 + (id)invokeBlock:(id)block withArguments:(RACTuple *)arguments {
 	NSCParameterAssert(block != NULL);
 
-	RACBlockTrampoline *trampoline = [[self alloc] initWithBlock:block];
-	return [trampoline invokeWithArguments:arguments];
+    if (@available(iOS 10.0, *)) {
+        RACBlockTrampoline *trampoline = [[self alloc] initWithBlock:block];
+        return [trampoline invokeWithArguments:arguments];
+    } else {
+        RACBlockTrampoline *trampoline = [[self alloc] init];
+        return [trampoline invokeWithArguments:arguments];
+    }
 }
 
 - (id)invokeWithArguments:(RACTuple *)arguments {
